@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: actiondemo01-container
-        image: sidlabacr03.azurecr.io/actiondemo01:latest
+        image: cloudnativeacr01.azurecr.io/actiondemo01:latest
         resources:
           limits:
             memory: "128Mi"
